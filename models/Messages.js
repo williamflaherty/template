@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema; 
 
 //create an item Schema 
-const messageSchema = new Schema({
+const userSchema = new Schema({
     name     :  String,
     message : String 
     },
@@ -14,4 +14,4 @@ const messageSchema = new Schema({
     }
 );
 
-module.exports = mongoose.model("Message", messageSchema); 
+module.exports = mongoose.model("User", userSchema); 

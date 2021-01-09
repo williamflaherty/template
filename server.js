@@ -3,7 +3,7 @@ const express = require('express');
 const path = require ('path');
 const mongoose = require('mongoose');  
 const bodyParser = require('body-parser'); 
-const Message = require("./models/Messages.js");
+const Message = require("./models/User.js");
 
 //create our express application and initialize a port variable 
 const chatApp = express();
